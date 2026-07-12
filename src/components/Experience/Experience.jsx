@@ -11,27 +11,23 @@ const Experience = () => {
         </p>
       </div>
 
-      <div className="relative">
+      <div className="relative max-w-2xl mx-auto">
         {/* Timeline line */}
-        <div className="absolute left-4 sm:left-1/2 sm:-translate-x-1/2 top-0 w-1 bg-white h-full"></div>
+        <div className="absolute left-4 sm:left-8 top-0 w-1 bg-white h-full"></div>
 
-        {experiences.map((experience, index) => (
+        {experiences.map((experience) => (
           <div
             key={experience.id}
-            className={`relative flex flex-col sm:flex-row items-start sm:items-center mb-16 ${
-              index % 2 === 0 ? 'sm:justify-end' : 'sm:justify-start'
-            }`}
+            className="relative flex items-start mb-16"
           >
             {/* Timeline dot */}
-            <div className="absolute left-4 sm:left-1/2 sm:-translate-x-1/2 -translate-x-1/2 bg-gray-50 border-4 border-[#8245ec] w-8 h-8 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            <div className="absolute left-4 sm:left-8 -translate-x-1/2 bg-gray-50 border-4 border-[#8245ec] w-8 h-8 sm:w-10 sm:h-10 rounded-full flex justify-center items-center z-10">
               <img src={experience.img} alt={experience.company} className="w-full h-full object-cover rounded-full" />
             </div>
 
             {/* Card */}
             <div
-              className={`w-[calc(100%-3rem)] sm:w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md transform transition-transform duration-300 hover:scale-105 ml-12 sm:ml-0 ${
-                index % 2 === 0 ? 'sm:mr-44' : 'sm:ml-44'
-              }`}
+              className="w-[calc(100%-3rem)] sm:w-[calc(100%-5rem)] p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md transform transition-transform duration-300 hover:scale-105 ml-12 sm:ml-16"
             >
               <div className="flex items-center space-x-4">
                 <div className="w-20 h-10 bg-white rounded-md overflow-hidden shrink-0">
