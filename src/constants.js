@@ -124,10 +124,10 @@ export const projects = [
 
    {
     id: 2,
-    title: "IHP - iHuman Power",
-    description:"iHP is a two-sided job portal connecting job providers and job seekers across India.|Job providers can post openings, search and filter through thousands of resumes, and directly invite candidates to apply.|Job seekers can browse and search jobs by category and location, upload their resume, and apply directly to companies.|Built with a secure Django REST Framework backend and PostgreSQL database, and a responsive React, Redux Toolkit, and Tailwind CSS frontend, developed using AI-assisted (vibe coding) workflows with the Claude AI tool.",
+    title: "IHP Pro Application",
+    description:"IHP Pro is a comprehensive job-board and HR management platform designed for organizations to efficiently manage job postings, candidate applications, and recruitment workflows.|Companies can post job openings across multiple categories, screen candidates, schedule interviews with calendar integration, manage subscriptions and GST billing, and track hiring metrics on advanced analytics dashboards.|Candidates can apply for jobs, build a portfolio to showcase their work, track application status, and receive real-time notifications via WhatsApp and in-app toasts.|Includes role-based access control (Admin, Provider, HR Manager, Candidate), payment processing via CCAvenue, soft-delete data patterns, and rate limiting for security.|Built with React, TypeScript, Redux Toolkit (RTK Query), and Ant Design on the frontend, and Django REST Framework, PostgreSQL, and Celery on the backend, deployed with Docker on AWS, developed using AI-assisted (vibe coding) workflows with the Claude AI tool.",
     image: ihplogo,
-     tags: ["HTML", "Tailwind CSS", "React JS", "Redux-toolkit", "Django","Django Orm","Postgress SQL", "AI-assisted development with Claude"],
+     tags: ["React", "TypeScript", "Redux Toolkit", "Ant Design", "Tailwind CSS", "Django REST Framework", "PostgreSQL", "Celery", "Docker", "AI-assisted development with Claude"],
     webapp: "https://www.ihp.co/"
   },
   
