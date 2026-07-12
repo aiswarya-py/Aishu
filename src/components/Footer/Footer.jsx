@@ -39,7 +39,7 @@ const Footer = () => {
             { icon: <FaInstagram />, link: "https://www.instagram.com/aiswaryadeepan/" },
             { icon: <FaYoutube />, link: "https://www.youtube.com/@AiswaryaDeepan" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/aiswaryadeepan/" },
-            { icon: <FaGithub />, link: "https://github.com/aiswaryadeepan" },
+            { icon: <FaGithub />, link: "https://github.com/aiswarya-py" },
           ].map((item, index) => (
             <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
             >

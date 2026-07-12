@@ -2,7 +2,7 @@ import { experiences } from '../../constants';
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-24 px-[7vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2">
+    <section className="py-24 px-[7vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2">
       <div className="text-center mb-16">
         <h1 className="text-4xl font-bold text-white">EXPERIENCE</h1>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
@@ -29,7 +29,7 @@ const Experience = () => {
 
             {/* Card */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md transform transition-transform duration-300 hover:scale-105 ml-12 sm:ml-0 ${
+              className={`w-[calc(100%-3rem)] sm:w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md transform transition-transform duration-300 hover:scale-105 ml-12 sm:ml-0 ${
                 index % 2 === 0 ? 'sm:mr-44' : 'sm:ml-44'
               }`}
             >

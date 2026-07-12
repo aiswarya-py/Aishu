@@ -2,7 +2,7 @@ import { projects } from "../../constants";
 
 const Work = () => {
   return (
-    <section id="projects" className="py-24 pb-24 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans relative clip-path-custom-2">
+    <section className="py-24 pb-24 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans relative clip-path-custom-2">
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>

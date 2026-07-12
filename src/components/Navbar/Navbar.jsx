@@ -60,10 +60,10 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="hidden md:flex space-x-4">
-          <a  href="mygitlink"  target="_blank"  rel="noopener noreferrer"  className="text-gray-300 hover:text-[#8245ec]">
+          <a href="https://github.com/aiswarya-py" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
             <FaGithub size={24} />
           </a>
-          <a href="mylinkedinlink" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+          <a href="https://www.linkedin.com/in/aiswaryadeepan/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
             <FaLinkedin size={24} />
           </a>
         </div>
@@ -84,6 +84,14 @@ const Navbar = () => {
                   <button onClick={() => handleMenuItemClick(item.id)}>{item.label}</button>
                 </li>
               ))}
+              <li className="flex space-x-6 pt-2">
+                <a href="https://github.com/aiswarya-py" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+                  <FaGithub size={22} />
+                </a>
+                <a href="https://www.linkedin.com/in/aiswaryadeepan/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+                  <FaLinkedin size={22} />
+                </a>
+              </li>
             </ul>
           </div>
         )}
