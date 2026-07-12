@@ -63,7 +63,7 @@ const Navbar = () => {
           <a href="https://github.com/aiswarya-py" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
             <FaGithub size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/aiswaryadeepan/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+          <a href="https://www.linkedin.com/in/aiswarya-d-a07542170" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
             <FaLinkedin size={24} />
           </a>
         </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 <a href="https://github.com/aiswarya-py" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
                   <FaGithub size={22} />
                 </a>
-                <a href="https://www.linkedin.com/in/aiswaryadeepan/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+                <a href="https://www.linkedin.com/in/aiswarya-d-a07542170" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
                   <FaLinkedin size={22} />
                 </a>
               </li>
