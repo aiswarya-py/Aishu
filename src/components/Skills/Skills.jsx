@@ -26,14 +26,14 @@ const Skills = () => {
               transitionSpeed={1000}
               gyroscope={true}
             >
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+              <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill) => (
                   <div
                     key={skill.name}
-                    className="flex items-center justify-center gap-2 bg-transparent border border-gray-700 rounded-3xl py-2 px-2"
+                    className="flex items-center gap-2 bg-transparent border border-gray-700 rounded-3xl py-2 px-3"
                   >
                     <img src={skill.logo} alt={`${skill.name} logo`} className="w-8 h-8 shrink-0" />
-                    <span className="text-gray-300 text-sm font-medium">{skill.name}</span>
+                    <span className="text-gray-300 text-sm font-medium whitespace-nowrap">{skill.name}</span>
                   </div>
                 ))}
               </div>
