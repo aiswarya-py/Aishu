@@ -78,7 +78,7 @@ export const experiences = [
   {
     id: 1,
     img: scm,
-    role: "Worked as a Fullstack Developer, specialized in React JS and Django.",
+    role: "Fullstack Developer",
     company: "AV7 SCM",
     date: "Dec 2024 – Present",
     desc: `Frontend:
@@ -120,15 +120,16 @@ export const projects = [
      tags: ["HTML", "Tailwind CSS", "React JS", "Redux-toolkit", "Django","Django Orm","Postgress SQL"],
     webapp: "http://www.shivamtraders.online/"
   },
-  
-  {
+
+   {
     id: 2,
-    title: "Gold Bullion Application",
-    description:"The Gold Bullion Application is a comprehensive trading and management platform designed for bullion businesses to efficiently handle daily operations. It provides real-time gold and silver price updates, interactive historical charts, and automated rate refresh features to support accurate trading decisions. The system includes modules for customer booking, purchase and sales management, stock tracking, and digital invoice generation. With a secure backend powered by Django and PostgreSQL and a responsive frontend built using React, Tailwind CSS, and Redux Toolkit, the application delivers a seamless, fast, and reliable experience tailored specifically for bullion traders and wholesalers.",
+    title: "IHP Application",
+    description:"The IHP Application is a comprehensive platform designed for efficient handling of daily operations in the bullion business. It provides real-time gold and silver price updates, interactive historical charts, and automated rate refresh features to support accurate trading decisions. The system includes modules for customer booking, purchase and sales management, stock tracking, and digital invoice generation. With a secure backend powered by Django and PostgreSQL and a responsive frontend built using React, Tailwind CSS, and Redux Toolkit, the application delivers a seamless, fast, and reliable experience tailored specifically for bullion traders and wholesalers.",
     image: bullionlogo,
-     tags: ["HTML", "Tailwind CSS", "React JS", "Redux-toolkit", "Django","Django Orm","Postgress SQL"],
+     tags: ["HTML", "Tailwind CSS", "React JS", "Redux-toolkit", "Django","Django Orm","Postgress SQL", "-with vibe coding using claude Ai tool"],
     webapp: "http://www.shivamtraders.online/"
-  }
+  },
+  
 ];
 
 export const education = [

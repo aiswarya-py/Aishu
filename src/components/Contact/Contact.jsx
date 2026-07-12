@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react'
+import React, {useRef} from 'react'
 import {ToastContainer, toast} from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css"
 import emailjs from '@emailjs/browser';
@@ -6,21 +6,19 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
-  const [isSent, setIsSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_b39bwxc",
-        "template_0likz63",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "Owd-rr4er-TqRrKAS"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
-          setIsSent(true);
           form.current.reset();
 
           toast.success("Message sent successfully!", {
