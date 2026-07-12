@@ -15,6 +15,7 @@ import uniqLogo from './assets/uniqlogo.png';
 import scm from './assets/scm.png'; 
 import timechatlogo from './assets/timechatlogo.png';
 import bullionlogo from './assets/bullionlogo.png';
+import ihplogo from './assets/ihplogo.png';
 import colleageLogo from './assets/colleageLogo.png';
 import schoolLogo2 from './assets/schoolLogo2.png';
 import schoolLogo from './assets/schoolLogo.png';
@@ -123,11 +124,11 @@ export const projects = [
 
    {
     id: 2,
-    title: "IHP Application",
-    description:"The IHP Application is a comprehensive platform designed for efficient handling of daily operations in the bullion business. It provides real-time gold and silver price updates, interactive historical charts, and automated rate refresh features to support accurate trading decisions. The system includes modules for customer booking, purchase and sales management, stock tracking, and digital invoice generation. With a secure backend powered by Django and PostgreSQL and a responsive frontend built using React, Tailwind CSS, and Redux Toolkit, the application delivers a seamless, fast, and reliable experience tailored specifically for bullion traders and wholesalers.",
-    image: bullionlogo,
-     tags: ["HTML", "Tailwind CSS", "React JS", "Redux-toolkit", "Django","Django Orm","Postgress SQL", "-with vibe coding using claude Ai tool"],
-    webapp: "http://www.shivamtraders.online/"
+    title: "IHP - iHuman Power",
+    description:"iHP is a two-sided job portal connecting job providers and job seekers across India.|Job providers can post openings, search and filter through thousands of resumes, and directly invite candidates to apply.|Job seekers can browse and search jobs by category and location, upload their resume, and apply directly to companies.|Built with a secure Django REST Framework backend and PostgreSQL database, and a responsive React, Redux Toolkit, and Tailwind CSS frontend, developed using AI-assisted (vibe coding) workflows with the Claude AI tool.",
+    image: ihplogo,
+     tags: ["HTML", "Tailwind CSS", "React JS", "Redux-toolkit", "Django","Django Orm","Postgress SQL", "AI-assisted development with Claude"],
+    webapp: "https://www.ihp.co/"
   },
   
 ];
